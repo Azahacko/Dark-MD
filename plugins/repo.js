@@ -21,7 +21,7 @@ async (conn, mek, m, { from, reply }) => {
 
         const response = await fetch(`https://api.github.com/repos/${username}/${repoName}`, {
             headers: {
-                'User-Agent': 'GOTAR-XMD'
+                'User-Agent': 'SPIRITY-XMD'
             }
         });
 
