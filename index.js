@@ -111,18 +111,18 @@ const port = process.env.PORT || 9090;
   }
   });
   console.log('Plugins installed successful ✅')
-  console.log('-MD CONNECTED SUCCESSFULLY ✅')
+  console.log('SPIRITY-MD CONNECTED SUCCESSFULLY ✅')
   
   let up = `
 ╔═════════════════
-║ *SPIRITY-XMD CONNECTED*      
+║ *꧁༺🍷SPIRITY-XMD 🍷༻꧂ CONNECTED*      
 ╠═════════════════
 ║ *⚡ DEV Dark-DEv*        
 ╠═════════════════
 ║ *🧩 YOUR PREFIX :* ${prefix}       
 ╠═══════════════
 `;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/zovvzc.png` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/b1lr4o.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
